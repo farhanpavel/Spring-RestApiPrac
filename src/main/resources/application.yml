@@ -1,0 +1,13 @@
+
+spring:
+  main:
+    allow-circular-references: true
+  data:
+    mongodb:
+      database: API
+      port: 27017
+      host: localhost
+      auto-index-creation: true
+
+server:
+  port: 8080
